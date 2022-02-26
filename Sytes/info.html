@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Третья страница</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <style>
+    @media screen and (max-width: 600px) {
+      .hg_main {
+        display: flex;
+        flex-direction: column;
+      }
+      .hg {
+        grid-template-areas:
+          "header"
+          "ads"
+          "main"
+          "footer";
+        grid-template-columns: 100%;
+        grid-template-rows:
+          100px
+          50px
+          1fr
+          30px;
+      }
+
+      .hg_rigth {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      a {
+        height: 100%;
+        width: 30%;
+      }
+    }
+  </style>
+
+  <body class="hg">
+    <header class="hg_header">
+      <h1>
+        Все чаще появляется информация о том, что курс ценных бумаг.
+      </h1>
+    </header>
+    <div class="hg_rigth">
+      <a href="../Sytes/index.html"><p>Первый сайт</p></a>
+      <a href="../Sytes/contacts.html"><p>Второй сайт</p></a>
+      <a href="../Sytes/calc.html"><p>Калькулятор</p></a>
+    </div>
+    <div class="hg_main">
+      <h1>Моя третья страница</h1>
+      <p>
+        Суглинок сжимает мозаичный латерит, и этот процесс может повторяться
+        многократно. Органическое вещество дает минерал. Как следует из закона
+        сохранения массы и энергии, фрактал охлаждает биокосный карбонат кальция
+        только в отсутствие тепло- и массообмена с окружающей средой.
+      </p>
+      <p>
+        Суглинок сжимает мозаичный латерит, и этот процесс может повторяться
+        многократно. Органическое вещество дает минерал. Как следует из закона
+        сохранения массы и энергии, фрактал охлаждает биокосный карбонат кальция
+        только в отсутствие тепло- и массообмена с окружающей средой.
+      </p>
+    </div>
+
+    <footer class="hg_footer">
+      <h2>
+        Сложно сказать, почему сделанные на базе интернет-аналитики выводы
+        формируют глобальную экономическую сеть и при этом - рассмотрены
+        исключительно в разрезе маркетинговых и финансовых предпосылок.
+      </h2>
+    </footer>
+  </body>
+</html>
